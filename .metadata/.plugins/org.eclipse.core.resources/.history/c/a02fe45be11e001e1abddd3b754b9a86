@@ -1,0 +1,13 @@
+package pe.edu.unmsm.ejemplo01.repositorio;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface Alumno extends CrudRepository<Alumno, Integer>{
+	/**
+	 * 
+	 * Busca un alumno por su codigo
+	 * @param alu_vccodigo el codigo del alumno
+	 */
+	public Alumno findByAluvccodigo(String aluvccodigo);
+
+}

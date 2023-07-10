@@ -1,0 +1,5 @@
+package pe.edu.unmsm.ejemplo01.entidades;
+
+public class Alumno {
+
+}
